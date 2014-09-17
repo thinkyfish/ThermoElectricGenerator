@@ -17,9 +17,9 @@ entryCost = 38200
 cost = 8000
 category = Utility
 subcategory = 0
-title = Pu-238 Thermoelectric RadioIsotope Generator
+title = Pu-238 Thermoelectric Generator
 manufacturer = Ionic Symphonic Protonic Electronics
-description = Realistic Plutonium Oxide Generator.
+description = Realistic Plutonium oxide Thermoelectric Generator.
 attachRules = 1,1,1,0,0
 
 // --- standard part parameters ---
@@ -35,14 +35,8 @@ MODULE
 {
 	name = ThermoNuclearGenerator
     ResourceName = ElectricCharge
-
-    //BaseRate is the amount of power generated when the reactor is Brand-New.
     BaseRate = 4.0
-
-    //StartFuel gets normalized, so don't chage this.
     StartFuel = 1.0
-
-    //This is the Half-Life in Seconds (currently for plutonium)
     HalfLife = 2766000000
 //    HalfLife = 100
     
