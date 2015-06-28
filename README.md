@@ -1,20 +1,25 @@
 ThermoElectricGenerator
 ======================
 
-Simple Thermoelectric Generator for KSP
+Simple Thermoelectric Generator mod for KSP.
 
-Looking at the options I really just wanted a Nuclear Generator that behaved more realistically.
-The half life and power level can be set from the part.cfg
+I wanted more versatile and accurate nuclear power so I created this simple mod.
 
-Yes, time is measured in seconds, so go to wolframalpha.com if you want a different rate.
+#Parts
+Strontium-90, Plutonium-238, and Polonium-210 generator
+-All parts use the stock model by default now.  I have another one, but its ugly.
+-See the part.cfg for exact settings for each model.
+-All parameters are changeable.
 
-The default charge rate was based on RTG's being "three to four times as powerful as solar panels" -Wikipedia
+I rebalanced the parts for gameplay over realism using the Ion engine as my reference.
+the Pu generator can power one ion engine for 10 kerbin years.
+the Po generator can power several at once but will not even power one after 3/4 kerbin years.
 
 #Features
-- remembers when it was installed and uses Radioactive decay equation to determine power output.
-- Works with .24.x , should work with earlier.
+- parts remember when they were installed and use Radioactive decay equation to determine power output.
+- all times have been scaled to kerbin years (about a third of earth years)
+- Works with 1.0.4, other versions may need a re-compile.
 
 #INSTALLATION
-You must copy the RTG models .mu and .mdm files from GameData/Squad/Parts/Electrical/RTG/Parts 
-to GameData/ThermoElectricGenerator/BasicThermo/Parts
+Simply copy the ThermoElectricGenerator folder into your Gamedata
 
