@@ -1,3 +1,5 @@
+ThermoElectricGenerator/ThermoElectricGenerator/bin/*
+ThermoElectricGenerator/ThermoElectricGenerator/obj/*
 *.zip
 *.tar.gz
 ~*
